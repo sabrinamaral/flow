@@ -4,7 +4,7 @@ A Ruby on Rails application to manage and reconcile financial data with ease.
 
 ## 🛠️ Tech Stack
 
-- **Ruby version:** `3.3.5`
+- **Ruby version:** `3.3.12`
 - **Rails version:** `~> 7.1.1`
 
 ## 🧩 Key Gems
