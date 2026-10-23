@@ -1,0 +1,7 @@
+---
+# Devise 4.9.4 advisories, fixed only in Devise 5.x (major upgrade).
+# The affected modules (confirmable, timeoutable) are not enabled in app/models/user.rb.
+# Remove these entries after upgrading Devise to 5.x.
+ignore:
+  - CVE-2026-32700  # confirmable: change email race condition
+  - CVE-2026-40295  # timeoutable: open redirect via request.referrer
