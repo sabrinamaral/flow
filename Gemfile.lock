@@ -91,7 +91,12 @@ GEM
       autoprefixer-rails (>= 9.1.0)
       popper_js (>= 2.11.6, < 3)
       sassc-rails (>= 2.0.0)
+    brakeman (8.1.0)
+      racc
     builder (3.3.0)
+    bundler-audit (0.9.3)
+      bundler (>= 1.2.0)
+      thor (~> 1.0)
     capybara (3.40.0)
       addressable
       matrix
@@ -354,6 +359,8 @@ PLATFORMS
 DEPENDENCIES
   bootsnap
   bootstrap (~> 5.2.3)
+  brakeman
+  bundler-audit
   capybara
   caxlsx
   caxlsx_rails
